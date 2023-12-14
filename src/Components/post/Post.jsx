@@ -4,9 +4,14 @@ import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
 import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
-import { Link } from "@mui/material";
+import Comments from "../Comments/Comments";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const Post = ({post}) => {
+
+    const [commentsOpen, setCommentsOpen] = useState(false);
 
     //TEMPRARY
     const liked = false;
@@ -18,7 +23,7 @@ const Post = ({post}) => {
                 <div className="userInfo">
                     <img src={post.profilePic} alt="" />
                     <div className="details">
-                    <Link top={`/profile/${post.userId}`} style={{textDecoration:'none', color:'inherit'}}>
+                    <Link to={`/profile/${post.userId}`} style={{textDecoration:'none', color:'inherit'}}>
                         <span className="name">{post.name}</span>
                     </Link>
                         <span className="date"> 1 min ago</span>
@@ -35,7 +40,7 @@ const Post = ({post}) => {
                     {liked ? <FavoriteOutlinedIcon /> : <FavoriteBorderOutlinedIcon />}
                     322 Likes
                 </div>
-                <div className="item">
+                <div className="item" onClick={()=>setCommentsOpen(!commentsOpen)}>
                     <TextsmsOutlinedIcon />
                     54 Comments
                 </div>
@@ -44,6 +49,7 @@ const Post = ({post}) => {
                     Share
                 </div>
             </div>
+            {commentsOpen && <Comments />}
         </div>
     </div>
   )

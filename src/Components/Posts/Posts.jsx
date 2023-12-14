@@ -34,9 +34,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 4,
       name: "abuzar salman",
-      userId: 3,
+      userId: 4,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -44,9 +44,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 5,
       name: "abuzar salman",
-      userId: 3,
+      userId: 5,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -54,9 +54,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 6,
       name: "abuzar salman",
-      userId: 3,
+      userId: 6,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -64,9 +64,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 7,
       name: "abuzar salman",
-      userId: 3,
+      userId: 7,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -74,9 +74,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 8,
       name: "abuzar salman",
-      userId: 3,
+      userId: 8,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -84,9 +84,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 9,
       name: "abuzar salman",
-      userId: 3,
+      userId: 9,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -94,9 +94,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 10,
       name: "abuzar salman",
-      userId: 3,
+      userId: 10,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -104,9 +104,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 11,
       name: "abuzar salman",
-      userId: 3,
+      userId: 11,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -114,9 +114,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 12,
       name: "abuzar salman",
-      userId: 3,
+      userId: 12,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -124,9 +124,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 13,
       name: "abuzar salman",
-      userId: 3,
+      userId: 12,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -134,9 +134,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 14,
       name: "abuzar salman",
-      userId: 3,
+      userId: 14,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -144,9 +144,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 15,
       name: "abuzar salman",
-      userId: 3,
+      userId: 15,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -154,9 +154,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 16,
       name: "abuzar salman",
-      userId: 3,
+      userId: 16,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",
@@ -164,9 +164,9 @@ const Posts = () => {
         "https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      id: 3,
+      id: 17,
       name: "abuzar salman",
-      userId: 3,
+      userId: 17,
       profilePic:
         "https://images.pexels.com/photos/19416910/pexels-photo-19416910/free-photo-of-a-couple-walking-down-the-street-in-the-snow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       desc: "the nature always looks beautifull",

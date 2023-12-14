@@ -1,9 +1,15 @@
+@import "../../style.scss";
+
 .rightBar {
   flex: 3.5;
   position: sticky;
   top: 60px;
   height: calc(100vh - 60px);
   overflow: scroll;
+
+  @include mobile {
+    display: none;
+}
 
   &::-webkit-scrollbar {
     display: none;
@@ -19,6 +25,7 @@
         box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
         padding: 20px;
         margin-bottom: 10px;
+
 
 
       span {

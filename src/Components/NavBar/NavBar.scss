@@ -1,3 +1,5 @@
+@import "../../style.scss";
+
 .navbar{
     display: flex;
     align-items: center;
@@ -28,6 +30,10 @@
                 border: none;
                 width: 500px;
                 height: 20px;
+
+                @include mobile {
+                    display: none;
+                }
             }
         }
     }
@@ -36,6 +42,10 @@
         display: flex;
         align-items: center;
         gap: 20px;
+
+        @include mobile {
+            display: none;
+        }
         .user{
             align-items: center;
             display: flex;

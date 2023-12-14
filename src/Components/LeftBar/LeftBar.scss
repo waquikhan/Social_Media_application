@@ -1,9 +1,16 @@
+@import "../../style.scss";
+
+
 .leftBar {
     flex: 2;
     position: sticky;
     top: 60px;
     height: calc(100vh - 60px);
     overflow: scroll;
+
+    @include mobile {
+      display: none;
+  }
 
     &::-webkit-scrollbar{
       display:none;

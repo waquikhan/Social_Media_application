@@ -1,4 +1,12 @@
+@import "../../style.scss";
+
 .home{
     padding: 20px 20px;
     background-color: rgba(219, 214, 214, 0.249);
+
+    @include mobile {
+        padding: 10px;
+        margin-right: 2px;
+    }
+
 }
