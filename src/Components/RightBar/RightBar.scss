@@ -7,9 +7,17 @@
   height: calc(100vh - 60px);
   overflow: scroll;
 
+  // { for mobile screen }
   @include mobile {
     display: none;
-}
+  }
+
+  // { for medium device }
+  @include teblat {
+    display: none;
+  }
+
+
 
   &::-webkit-scrollbar {
     display: none;

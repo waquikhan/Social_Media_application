@@ -13,20 +13,30 @@
             height: 100px;
             justify-content: space-between;
         }
+
+        
+        // { this is medium device }
+        @include teblat{
+            height:150px ;
+            padding: 10px;
+        }
+
     .story{
         flex: 1;
         border-radius: 10px;
         overflow: hidden;
         position: relative;
 
+        // { this is for mobile device }
         @include mobile {
             flex:none;
             height: 90px ;
             width: 90px;
             border-radius: 50%;
             margin-top: 10px;
-
         }
+
+
 
 
         img{

@@ -31,9 +31,16 @@
                 width: 500px;
                 height: 20px;
 
+                // { for mobile scree }
                 @include mobile {
                     display: none;
                 }
+
+                // { For medium screem }
+                @include teblat{
+                    width: 250px;
+                }
+
             }
         }
     }
@@ -51,6 +58,11 @@
             display: flex;
             gap: 6px;
             font-weight: 500;
+
+            @include teblat{
+                display: none;
+            }
+
             img{
                 width: 27px;
                 height: 27px;

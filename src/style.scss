@@ -47,3 +47,9 @@ $themes: (
     @content;
   }
 }
+
+@mixin teblat{
+    @media (max-width:900px){
+        @content;
+    }
+}
