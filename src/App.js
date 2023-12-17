@@ -17,7 +17,7 @@ function App() {
 
   const Layout = () => {
     return (
-      <div>
+      <>
         <NavBar />
         <div style={{ display: "flex" }}>
           <LeftBar />
@@ -26,7 +26,7 @@ function App() {
           </div>
           <RightBar />
         </div>
-      </div>
+      </>
     );
   };
 
@@ -40,13 +40,21 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
+      element: <Login />
+    },
+    {
+      path: "/register",
+      element: <Register />,
+    },
+    {
+      path:"/profile",
       element: 
       <ProtectedLayout>
         <Layout />
       </ProtectedLayout>,
       children: [
         {
-          path: "/",
+          path: "/profile",
           element: <Home />,
         },
         {
@@ -55,20 +63,12 @@ function App() {
         },
       ],
     },
-    {
-      path: "/login",
-      element: <Login />,
-    },
-    {
-      path: "/register",
-      element: <Register />,
-    },
   ]);
 
   return (
-    <div>
+    
       <RouterProvider router={router} />
-    </div>
+  
   );
 }
 

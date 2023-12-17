@@ -6,10 +6,12 @@
     width: 100%;
     height: 300px;
     position: relative;
+
     .cover {
       width: 100%;
       height: 100%;
       object-fit: cover;
+
     }
     .profilePic {
       width: 200px;
@@ -130,7 +132,7 @@
     }
   }
   .posts{
-    padding: 10px;
+    padding: 1npm 0px;
 
 
     @include mobile{

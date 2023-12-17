@@ -8,6 +8,10 @@
     height: calc(100vh - 60px);
     overflow: scroll;
 
+    @include teblat {
+      display: none;
+    }
+
     @include mobile {
       display: none;
   }

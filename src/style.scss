@@ -43,13 +43,13 @@ $themes: (
 // this is for the Native enviroment we can import this file and give the css as device which we want to give the styling.
 
 @mixin mobile {
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     @content;
   }
 }
 
 @mixin teblat{
-    @media (max-width:900px){
+    @media (max-width:1000px){
         @content;
     }
 }
