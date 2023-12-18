@@ -1,80 +1,79 @@
 @import "../../style.scss";
 
 .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // padding: 0px 20px;
+  height: 50px;
+  border-bottom: 1px solid lightgrey;
+  position: sticky;
+  top: 0;
+  // min-width: 530px;
+  background-color: white;
+  z-index: 999;
+  .left{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    // padding: 0px 20px;
-    height: 50px;
-    border-bottom: 1px solid lightgrey;
-    position: sticky;
-    top: 0;
-    // min-width: 530px;
-    background-color: white;
-    z-index: 999;
-    .left{
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        span{
-            font-weight: bold;
-            font-size: 20px;
-            color: rgb(3, 3, 100);
-        } 
-        .search{
-            display: flex;
-            align-items: center;
-            gap: 3px;
-            border: 1px solid lightgrey;
-            border-radius: 5px;
-            input{
-                border: none;
-                width: 500px;
-                height: 20px;
-
-                // { for mobile scree }
-                @include mobile {
-                    display: none;
-                }
-
-                // { For medium screem }
-                @include teblat{
-                    width: 250px;
-                }
-
-            }
-        }
+    gap: 30px;
+    span{
+      font-weight: bold;
+      font-size: 20px;
+      color: rgb(3, 3, 100);
     }
+    .search{
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      input{
+        border: none;
+        width: 500px;
+        height: 20px;
 
-    .right{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-
+        // { for mobile scree }
         @include mobile {
-            display: none;
+          display: none;
         }
-        .user{
-            align-items: center;
-            display: flex;
-            gap: 6px;
-            font-weight: 500;
 
-            @include teblat{
-                display: none;
-            }
-
-            img{
-                width: 27px;
-                height: 27px;
-                border-radius: 50%;
-                object-fit: cover;
-                gap: 5px;
-            }
-            span{
-                font-weight: bold;
-                color: rgb(3, 3, 100);
-            }
+        // { For medium screem }
+        @include teblat{
+          width: 250px;
         }
+      }
     }
+  }
+
+  .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include mobile {
+      display: none;
+    }
+    .user{
+      align-items: center;
+      display: flex;
+      gap: 6px;
+      font-weight: 500;
+
+      @include teblat{
+        display: none;
+      }
+
+      img{
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        object-fit: cover;
+        gap: 5px;
+      }
+      span{
+        font-weight: bold;
+        color: rgb(3, 3, 100);
+      }
+    }
+  }
 }
