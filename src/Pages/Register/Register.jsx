@@ -28,7 +28,6 @@ const Register = () => {
       }
    }
 
-   console.log(err)
   return (
     <div className="register">
       <div className="card">
